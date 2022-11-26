@@ -1,0 +1,102 @@
+.ticket{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 3;
+}
+.ticket-content{
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    transform: translateY(100px); 
+}
+.ticket-header{
+    background-color: #009688;
+    padding: 16px;
+    position: relative;
+}
+.ticket-header > span{
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+.ticket-header h2{
+    text-transform: capitalize;
+    margin: 10px 0;
+    padding: 16px;
+}
+.ticket-header h2 span{
+    margin-right: 8px;
+}
+.ticket-body{
+    padding:16px;
+}
+.ticket-body > button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #009688;
+    outline: none;
+    border: none;
+    padding: 16px 0;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+.ticket-body > button:hover{
+    background-color: red;
+    opacity: 0.7;
+}
+
+.ticket-body-form{
+    margin-bottom: 16px;
+}
+.ticket-body-form-input{
+    margin-bottom: 16px;
+}
+.ticket-body-form-input label{
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    font-size: 17px;
+}
+.ticket-body-form-input label span{
+    margin-right: 2px;
+}
+.ticket-body-form-input input{
+    padding: 10px 12px;
+    width: 100%;
+    border: 1px solid #c0bfbf;
+    outline: none;
+}
+.ticket-body-button{
+    display: flex;
+    justify-content: space-between;
+}
+.ticket-body-button button{
+    color: #fff;
+    background-color: red;
+    border: none;
+    padding: 8px 16px ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ticket-body-button button span{
+    transform: translateY(2px);
+}
+.ticket-body-button p{
+    margin: 0;
+    font-size: 16px;
+}
+.ticket-body-button p a{
+    color: #77c6e0;
+}

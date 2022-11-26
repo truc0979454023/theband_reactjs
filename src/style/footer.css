@@ -1,0 +1,18 @@
+.footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.footer-icons a{
+    margin: 0 2px;
+    font-size: 24px; 
+}
+.footer-icons a:hover{
+    opacity: 0.8;
+}
+.footer p{
+    margin: 16px 0;
+}
+.footer a{
+    color: #4b4a4a;
+}

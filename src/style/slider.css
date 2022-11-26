@@ -1,0 +1,25 @@
+.slider{
+    margin-top: 48px;
+    width: 100%;
+    position: relative;
+}
+.img-slider{
+    width: 100%;
+}
+.text-slider{
+    position: absolute;
+    bottom: 15%;
+    width: 50%;
+    left: 25%; 
+    color: #fff;
+}
+.text-slider h3{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.text-slider p{
+    display: flex;
+    justify-content: center;
+    
+}

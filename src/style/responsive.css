@@ -1,0 +1,74 @@
+@media (min-width: 740px ) and (max-width :1023px) {
+    .ticket-content{
+        max-width: 640px;
+    }
+}
+
+@media  (max-width : 739px) {
+    /* ====content====== */
+    /* ====header======== */
+    .header{
+        display: block;
+        overflow: hidden;
+    }
+    .header:hover{
+        overflow: unset;
+    }
+    .nav {
+        display: block;
+    }
+    .nav > li{
+        background-color: #000;
+    }
+    .nav > li:first-child{
+        width: calc(100% - 50px);
+    }
+    .subnav{
+        width: 100%;
+        right: 0px;
+    }
+    .header-icon{
+        position: absolute;
+        top: 0;float: left;
+        right: 0;
+    }
+    /* =========slider=========== */
+    .text-slider{
+        display: none;
+    }
+   
+    
+/* ==========intro================== */
+    .info-content-mem{
+        display: block;
+    }
+/* =====tour=================== */
+    .info-content-pic{
+        display: block;
+    }
+    .info-content-pic-card{
+        margin: 16px auto;
+        width: 100%;
+    }
+    .info-content-pic-card:nth-child(2){
+        margin: 16px auto;
+    }
+    .info-content-pic-card-text button{
+        width: 100%;
+    }
+/* ====contact============ */
+    .info-content-body{
+        display: block;
+    }
+    .info-content-body button{
+        width: 100%;
+    }
+    .info-content-body-input{
+        width: 100%;
+        margin-top: 16px;
+    }
+/* =======ticket=============== */
+    .ticket-content{
+        max-width: 360px;
+    }
+}
